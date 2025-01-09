@@ -11,32 +11,30 @@ body {
 }
 
 body.charity-selected {
-    background-image: url(images/Author1.jpg);
     background-size: cover;
     background-position: center center;
     background-clip: border-box;
     background-repeat: no-repeat;
 }
 
-body.charity-ashreinu {
-    background-image: url('Charity/Ashreinu/background/background.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+body.charity-meirpanim {
+    background-image: url('Charity/Meir_Panim/background/background.png');
 }
 
 body.charity-lev-hatorah {
     background-image: url('Charity/Lev_Hatorah/background/background.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
 }
 
-body.charity-tifferet {
-    background-image: url('Charity/Tifferet/background/background.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+body.charity-chabad {
+    background-image: url('Charity/Chabad/background/background.png');
+}
+
+body.charity-yeshiva-neve-tzion {
+    background-image: url('Charity/Yeshiva_Neve_Tzion/background/background.png');
+}
+
+body.charity-nachum-segal-network {
+    background-image: url('Charity/Nachum_Segal_Network/background/background.png');
 }
 
 .container {

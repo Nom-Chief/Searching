@@ -1,5 +1,5 @@
-const THANKYOU_URL = "https://smilestab.info/thank-you/";
-const UNINSTALL_URL = "https://smilestab.info/uninstall/";
+const THANKYOU_URL = "https://searchingforahighercause.com/thanks";
+const UNINSTALL_URL = "https://searchingforahighercause.com/sorry";
 
 chrome.runtime.onInstalled.addListener(() => {
   chrome.storage.sync.get(["isThankYouPageWasOpened"], function ({ isThankYouPageWasOpened }) {

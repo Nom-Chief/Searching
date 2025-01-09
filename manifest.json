@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Searching For A Higher Cause",
+  "description": "This Extension Will Customize Your New Tab Experience.",
+  "version": "1.3",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "128": "128icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "topSites"],
+  "web_accessible_resources": [{
+    "resources": [
+      "Charity/*/logo/*.png",
+      "Charity/*/background/*.png"
+    ],
+    "matches": ["<all_urls>"]
+  }]
+}

@@ -17,6 +17,14 @@ body.charity-selected {
     background-repeat: no-repeat;
 }
 
+body.charity-stepping-stones {
+    background-image: url('Charity/Stepping_Stones/background/background.png');
+}
+
+body.charity-yeshiva-neve-tzion {
+    background-image: url('Charity/Yeshiva_Neve_Tzion/background/background.png');
+}
+
 body.charity-meirpanim {
     background-image: url('Charity/Meir_Panim/background/background.png');
 }
@@ -27,10 +35,6 @@ body.charity-lev-hatorah {
 
 body.charity-chabad {
     background-image: url('Charity/Chabad/background/background.png');
-}
-
-body.charity-yeshiva-neve-tzion {
-    background-image: url('Charity/Yeshiva_Neve_Tzion/background/background.png');
 }
 
 body.charity-nachum-segal-network {
